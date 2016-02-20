@@ -1,0 +1,149 @@
+/***********/
+/*About.css*/
+/***********/
+.about {
+	background-color: #fff;
+	background: url('../img/about-background-top.jpg') no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 100px 0;
+	height: 720px;
+}
+
+.about h2 {
+	padding-top: 50px;
+}
+
+.about p {
+	font-size: 2em;
+}
+
+.about h2,
+.about p {
+	color: #fff;
+	text-align: left;
+}
+
+.about-more {
+	background-color: #fff;
+	padding: 150px 0;
+}
+
+.about-more .wrap-inner {
+	padding: 0 20px;
+}
+
+.about-more .lead-text {
+	font-size: 1.8em;
+	line-height: 1.6;
+	text-align: left;
+	padding-right: 10px;
+	border-right: 1px solid #777;
+	box-sizing: border-box;
+}
+
+.more-col {
+	float: left;
+	width: 33%;
+	padding: 0 30px;
+	box-sizing: border-box;
+}
+
+.more-col p {
+	color: #333;
+	font-size: 1em;
+}
+
+.about-services {
+	background-color: #fff;
+}
+
+.about-services h2 {
+	color: #bdbfbd;
+	margin-bottom: 75px;
+}
+
+.services-col {
+	width: 100%;
+	margin-bottom: 100px;
+}
+
+.services-points {
+	width: 40%;
+}
+
+.services-points h3 {
+	text-align: left;
+	margin: 30px 0;
+	color: #3f403f;
+	font-weight: 700;
+}
+
+.services-points ul li {
+	font-size: 0.9em;
+	font-weight: 700;
+	letter-spacing: 2px;
+	padding: 10px;
+}
+
+.services-text {
+	margin-left: 10%;
+	width: 50%;
+}
+
+.services-text p {
+	font-size: 1.1em;
+	margin: 30px 0;
+}
+
+.services-points,
+.services-text {
+	float: left;
+	text-align: left;
+	color: #7e7f7e;
+}
+
+.about-works {
+	background: url('../img/about-background-bottom.jpg') no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+}
+
+.about-works h2 {
+	font-size: 4.5em;
+}
+
+.contact-form {
+	background-color: #fff;
+	text-align: center;
+}
+
+.contact-form form {
+	width: 500px;
+	margin: 60px auto;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+	font: 1.1em 'PT Sans', serif;
+	width: 400px;
+	height: 50px; 
+	padding: 30px;
+	margin-bottom: 20px;
+	background: transparent;
+	outline: none;
+	color: #7e7f7e;
+	border: 1px solid #bdbfbd;
+	-webkit-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+}
+
+.contact-form input[type="text"]:focus,
+.contact-form input[type="email"]:focus,
+.contact-form textarea:focus {
+	color: #3f403f;
+	border: 1px solid transparent;
+	box-shadow: 0px 0px 5px #000;
+}

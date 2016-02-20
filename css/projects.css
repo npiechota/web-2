@@ -1,0 +1,147 @@
+/***********/
+/*Projects 1-3*/
+/***********/
+.proj-top {
+	position: relative;
+	background-color: #fff;
+	width: 100%;
+	height: 100vh;
+}
+
+.proj-top-1 {
+	background: url('../img/proj-1-background.jpg') no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.proj-top-2 {
+	background: url('../img/proj-2-background.jpg') no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.proj-top-3 {
+	background: url('../img/proj-3-background.jpg') no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.proj-name h1,
+.proj-name p {
+	color: #fff;
+	text-shadow: 0 0 1px #333;
+}
+
+.proj-name h1 {
+	font-weight: 700;
+}
+
+.proj-name p {
+	font-weight: 700;
+	margin: 0 auto;
+}
+
+.proj-name {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	    -ms-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
+}
+
+.proj-subtitle {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.proj-subtitle li {
+	display: inline-block;
+}
+
+.proj-subtitle li:nth-child(2n) {
+	padding: 0 40px;
+	border-left: 1px solid #fff;
+	border-right: 1px solid #fff;
+}
+
+.proj-subtitle li:nth-child(2n+1) {
+	padding: 0 15px;
+}
+
+.project-heading,
+.pic-showcase,
+.photo-grid {
+	background-color: #f2f2f2;
+}
+
+.project-heading p {
+	margin: 30px auto;
+	padding: 100px 0;
+	border-top: 1px solid #e3e5e3;
+	border-bottom: 1px solid #e3e5e3;
+	font-size: 1.8em;
+	line-height: 2.2;
+	text-align: center;
+	color: #7a7a7a;
+}
+
+.pic-showcase ul li {
+	margin: 100px 0;
+}
+
+.pic-showcase ul li:first-child {
+	margin-top: 0;
+}
+
+.pic-showcase ul li:last-child {
+	margin-bottom: 0;
+	padding-bottom: 100px;
+}
+
+.proj-pic-lg {
+	max-width: 70%;
+	margin: 0 auto;
+}
+
+.proj-nav {
+	border-top: 1px solid #e3e5e3;
+}
+
+.proj-nav .intro-underline {
+	color: #bdbfbd;
+	margin-left: 10px;
+}
+
+.photo-grid {
+	padding-bottom: 100px;
+}
+
+.photo-grid .wrap-inner{
+	width: 70%;
+}
+
+.grid-pic {
+	display: block;
+	position: relative;
+	float: left;
+	overflow: hidden;
+	width: 48%;
+	box-sizing: border-box;
+}
+
+.grid-pic:nth-child(odd) {
+	margin-right: 2%;
+	margin-bottom: 3%;
+}
+
+.grid-pic:nth-child(even) {
+	margin-left: 2%;
+	margin-bottom: 4%;
+}
+
+.grid-pic img {
+	max-width: 100%;
+	min-height: 100%;
+	overflow: hidden;
+}
