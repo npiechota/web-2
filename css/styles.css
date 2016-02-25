@@ -510,8 +510,11 @@ body.full-page {
 
 .contact-copyright {
 	margin-top: 30px;
-	font-size: 0.8em;
 	text-align: center;
+}
+
+.contact-copyright p {
+	font-size: 0.8em;
 }
 
 /***************************************************
